@@ -1,0 +1,462 @@
+body{
+    background-color: black;
+}
+
+/* =============================================Start Header=========================================== */
+
+.navbar-brand img{
+    height:70px;
+}
+
+.head_area .main_menu .navbar .navbar-brand{
+
+    padding: 0 2rem 0 5rem;
+}
+
+
+.head_area .main_menu .navbar{
+
+    padding: 2rem 10rem;
+}
+
+
+
+.head_area .main_menu .nav-item .nav-link{
+
+    padding: 1.7rem;
+    text-transform: uppercase;
+    color: gainsboro;
+
+}
+
+.head_area .main_menu .navbar-nav .active a{
+
+    background-color: springgreen;
+
+}
+
+.head_area .main_menu .navbar-nav a:hover{
+
+   background-color: steelblue;
+   color: gold;
+   height: 70px;
+
+}
+
+#navbar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+   background-image: url(https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);
+   background-size: cover;
+    font-weight: bolder;
+    height: 50px;
+}
+
+/* ==============================================End Header================================================= */
+
+/* ===============================================Start Welcome Section========================================= */
+
+.site-main .site-banner{
+
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg);
+    background-size: cover;
+    color: gold;
+    background-position: 0% 50%;
+    
+}
+
+.site-main .site-banner .site-title h3{
+
+    padding-top: 35%;
+    font-weight: 500;
+
+}
+
+.site-main .site-banner .site-title h3::after{
+
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background:teal;
+    display: inline-block;
+    margin-left: 5%;
+
+}
+
+.site-main .site-banner .site-title h1{
+
+    font-size: 5rem;
+
+}
+
+.site-main .site-banner .site-title h4{
+
+    font-size: 1.5rem;
+
+}
+
+.site-main .site-banner .banner-image>img{
+
+    padding: 7rem 0;
+    margin-top: 75px;
+
+}
+
+#welcome-section{
+    height: 100vh;    
+}
+/* ===============================================End Welcome Section========================================= */
+
+
+/* ==================================================Start About Area=========================================== */
+
+.site-main .about-area{
+ 
+    padding: 8rem 5rem;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+    background-size: cover;
+    color: gold;
+
+}
+
+.site-main .about-area .about-title h2>span{
+
+    display: block;
+    font: normal bold 49px/60px;
+    letter-spacing: 21px;
+    
+}
+
+.site-main .about-area .about-title .paragraph>p{
+
+    padding: 4rem 0;
+}
+
+.img-fluid{
+    margin-top: 100px;
+    padding: 8rem 5rem;
+}
+
+/* ==================================================End About Area=========================================== */
+
+/*========================================== Start Project Area=============================================== */
+
+.projects-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-image: url(https://media.istockphoto.com/id/1302189748/photo/digital-cyberspace-with-particles-and-digital-data-network-connections-high-speed-connection.jpg?b=1&s=170667a&w=0&k=20&c=_CCfdXMeN0cse3LMXdIYJ_ne-WKIhc4PbqT2dPR8vR8=);
+    background-size: cover;
+    color:orangered;
+  }
+  
+  .project-title {
+    max-width: 540px;
+    margin: 0 auto 5rem auto;
+  }
+  
+  @media (max-width: 28.75em) {
+    .project-title {
+      font-size: 4rem;
+    }
+  }
+  
+  /* "Automagic" image grid using no media queries */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  @media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .project {
+    background-color: lavender;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+
+  .project:hover{
+    box-shadow: 0px 10px 30px rgba(248, 2, 2, 0.952);
+  }
+  
+  .code {
+    color:lavender;
+    transition: color 0.3s ease-out;
+  }
+  
+  .project:hover .code {
+    color: #ff7f50;
+  }
+  
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    color: orange;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .btn-show-all {
+    font-size: 2rem;
+   color: coral;
+    transition: background 0.3s ease-out;
+  }
+  
+  .btn-show-all:hover {
+    background-color: gold;
+  }
+  
+  .btn-show-all:hover > i {
+    transform: translateX(2px);
+  }
+  
+  .btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+/*========================================== End Project Area=============================================== */
+
+
+/*========================================== Start Services Area=============================================== */
+
+.site-main .services-area{
+
+    padding: 7rem 2rem;
+    background-image: url(https://media.istockphoto.com/photos/business-technology-internet-and-network-concept-technical-support-picture-id1202843504?b=1&k=20&m=1202843504&s=170667a&w=0&h=M-sE0Gxbt2bIh1EOOqH-NyHU5NhJ5xzt4tmLQTo9HeI=);
+    background-size: cover;
+    color: gold;
+    
+
+}
+
+.site-main .services-area .services-title{
+
+    padding: 0 14rem;
+
+}
+
+.site-main .services-area .h1{
+
+    font: 35px;
+
+}
+
+.site-main> .services-area .services{
+
+    background: lightblue;
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main> .services-area .services:hover{
+
+    box-shadow: 0px 10px 30px rgba(248, 2, 2, 0.952);
+
+}
+
+.services img{
+  height: 200px;
+  width: 90%;
+}
+
+  h5{
+  color:red;
+  font-weight: bold;
+}
+.par{
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/*========================================== End Services Area=============================================== */
+
+/*========================================== Start Contact Area=============================================== */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523__340.jpg);
+    background-size: cover;
+    color:coral;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    color: orange;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+
+/*========================================== End Contact Area=============================================== */
+
+/* ============================================Start Footer Area============================================= */
+
+.text-footer {
+    padding: 20px 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxPQAuvOnjlSfuFmKOvDKepOn-rmRWp4mog&usqp=CAU);
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+  
+
+/* ============================================End Footer Area============================================= */
+
+
+
+/*==========================================================Media Query======================================= */
+
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+
+
+@media only screen and (max-width: 400px){
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand, p, h4,
+  .site-main .services-area
+  {
+      padding:2%;
+      margin: 0%;
+     
+
+  }
+
+
+  .site-main .site-banner .site-title h1{
+      font-size: 41px;
+  }
+
+
+  .site-main > .services-area .services{
+      width: 10rem;
+  }
+
+}
+
+
+/* if the viewport is equal to 792px or less than that */ 
+
+
+@media only screen and (max-width: 792px){
+  .site-main .about-area .about-title h2 > span{
+      font-size: 31px;
+      letter-spacing: 10px;
+  }
+
+
+  .site-main .about-area .about-title p{
+      padding: 0%;
+  }
+
+  
+
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+
+
+@media only screen and (max-width: 1910px){
+  .header_area .main-menu .navbar{
+      padding:0%;
+  }
+
+  .container{
+      max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area{
+      padding: 3% 4%;
+  }
+
+}
+
+@media only screen and (max-width:991px){
+ #navbar 
+  {
+      height: 80px;
+  }
+
+  .show{
+    color: black;
+    background-color: goldenrod;
+  }
+
+  .navbar-brand img{
+    height:40px;
+  }
+}
+
+@media only screen and (max-width:550px){
+  .navbar-brand img{
+    display: none;
+  }
+}
